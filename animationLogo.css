@@ -1,38 +1,38 @@
 /* The animation code*/
 @keyframes animatedLinkedIn {
     0% {
-        transform: rotate(0deg) translateX(-130px);
+        transform: rotate(0deg) translateY(100px);
     }
 
     25% {
-        transform: rotate(90deg) translateX(130px);
+        translateY(100px);
         filter: hue-rotate(90deg);
     }
 
     50% {
-        transform: rotate(180deg) translateX(130px);
+        translateY(100px);
         filter: hue-rotate(180deg);
     }
 
     75% {
-        transform: rotate(270deg) translateX(-130px);
+        translateY(100px);
         filter: hue-rotate(270deg);
     }
 
     100% {
-        transform: rotate(360deg) translateX(130px);
+        translateY(360px);
         filter: hue-rotate(360deg);
     }
 }
 
 /* The element to apply the animation to */
 div {
-    width: 100px;
-    height: 100px;;
+    width: 150px;
+    height: 150px;
     animation-name: animatedLinkedIn;
     animation-duration: 3s;
     animation-iteration-count: infinite;
-    padding-top: 100px;
+    padding-top: 200px;
 }
 
 div img {
